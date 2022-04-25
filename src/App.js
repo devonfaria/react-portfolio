@@ -31,6 +31,18 @@ const projects = [
     title: 'Project 4',
     link: 'https://github.com/devonfaria/react-portfolio',
     imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+  },
+  {
+    id: 5,
+    title: 'Project 5',
+    link: 'https://github.com/devonfaria/react-portfolio',
+    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+  },
+  {
+    id: 6,
+    title: 'Project 6',
+    link: 'https://github.com/devonfaria/react-portfolio',
+    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
   }
 ];
 

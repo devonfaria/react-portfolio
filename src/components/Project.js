@@ -2,10 +2,6 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const styles = {
-  body: {
-    display: 'flex',
-    backgroundColor: 'red'
-  },
   card: {
     backgroundColor: '#6289de',
     display: 'flex',
@@ -27,7 +23,7 @@ export default function Project(props) {
       <main>
         <div className='container' style={styles.body}>
           <h3>Projects</h3>
-          <div>
+          <div className='container row flex-wrap'>
             {props.projects.map(renderProject)}
           </div>
         </div>
