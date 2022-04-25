@@ -1,5 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import logo from './logo.svg';
+import './App.css';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+import Footer from './components/Footer';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function App() {
+  return (
+    <div>
+      <Header />
+      <Navigation />
+      <Project />
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
