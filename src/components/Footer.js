@@ -6,6 +6,11 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  imgLinks: {
+    margin: '1rem',
+    padding: '1rem',
+    color: 'black',
   }
 };
 
@@ -14,7 +19,11 @@ export default function Footer() {
   return (
     <div>
       <footer style={styles.footer}>
-        <h5>Devon Faria 2022</h5>
+        <nav>
+          <a href='/' style={styles.imgLinks}>Twitter</a>
+          <a href='/' style={styles.imgLinks}>Github</a>
+          <a href='/' style={styles.imgLinks}>LinkedIn</a>
+        </nav>
       </footer>
     </div>
   )
