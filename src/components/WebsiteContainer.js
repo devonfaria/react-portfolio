@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Header from './Header';
-import Navigation from './Navigation';
 import AboutMe from './pages/AboutMe';
 import Project from './pages/Project';
 import ContactForm from './pages/ContactForm';
@@ -46,10 +45,31 @@ const projects = [
 ];
 
 export default function WebsiteContainer() {
+  const [currentPage, setCurrentPage] = useState('AboutMe');
+
+  const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Project />;
+    }
+    if (currentPage === 'Contact') {
+      return <ContactForm />;
+    }
+    if (currentPage === 'Resume') {
+      return <AboutMe />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <>
-      <Header />
-      <Navigation />
+      <Header
+        handlePageChange={handlePageChange} renderPage={renderPage}
+        currentPage={currentPage} />
+      {renderPage()}
       <Footer />
     </>
   )
