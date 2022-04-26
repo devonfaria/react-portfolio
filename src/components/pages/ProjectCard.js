@@ -1,5 +1,5 @@
 import React from 'react'
-import Test from '../media/test.png'
+import Test from '../../media/test.png'
 
 const styles = {
   nope: {
