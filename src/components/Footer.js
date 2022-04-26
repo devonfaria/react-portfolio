@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
   footer: {
@@ -6,6 +9,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    height: '100px'
   },
   imgLinks: {
     margin: '1rem',
@@ -20,9 +24,9 @@ export default function Footer() {
     <div>
       <footer style={styles.footer}>
         <nav>
-          <a href='/' style={styles.imgLinks}>Twitter</a>
-          <a href='/' style={styles.imgLinks}>Github</a>
-          <a href='/' style={styles.imgLinks}>LinkedIn</a>
+          <a href='mailto:devonfaria@gmail.com' style={styles.imgLinks}><FontAwesomeIcon icon={faEnvelope} /></a>
+          <a href='https://github.com/devonfaria' style={styles.imgLinks}><FontAwesomeIcon icon={faGithubSquare} /></a>
+          <a href='https://www.linkedin.com/in/devon-faria/' style={styles.imgLinks}><FontAwesomeIcon icon={faLinkedin} /></a>
         </nav>
       </footer>
     </div>

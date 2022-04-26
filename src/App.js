@@ -7,6 +7,7 @@ import Project from './components/Project';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
+
 const projects = [
   {
     id: 1,

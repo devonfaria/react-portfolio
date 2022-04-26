@@ -26,7 +26,7 @@ export default function Header() {
         <a href='/' style={styles.links}>About Me</a>
         <a href='/' style={styles.links}>Portfolio</a>
         <a href='/' style={styles.links}>Contact</a>
-        <a href='/' style={styles.links}>Resume</a>
+        <a href='https://drive.google.com/file/d/1esn7-4dgYxx4vjljA5vWsZJLB3u3w-fs/view?usp=sharing' style={styles.links}>Resume</a>
       </nav>
     </header>
   )
