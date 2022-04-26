@@ -48,11 +48,11 @@ export default function WebsiteContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
-    if (currentPage === 'AboutMe') {
+    if (currentPage === 'About') {
       return <AboutMe />;
     }
     if (currentPage === 'Portfolio') {
-      return <Project />;
+      return <Project projects={projects} />;
     }
     if (currentPage === 'Contact') {
       return <ContactForm />;
@@ -60,6 +60,7 @@ export default function WebsiteContainer() {
     if (currentPage === 'Resume') {
       return <AboutMe />;
     }
+    return <AboutMe />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
