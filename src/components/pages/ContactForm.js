@@ -58,47 +58,46 @@ function ContactForm() {
 
 
   return (
-    <div className="container mt-5 mb-5">
-      <h3 style={styles.pageTitle}>Contact Me</h3>
-      <form className="form mt-4">
-        <div class="form-group mb-3">
-          <label for="nameInput">Name:</label>
-          <input
-            className='nameInput form-control'
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Name"
-          />
-        </div>
-        <div class="form-group mb-3">
-          <label for="emailInput">Email:</label>
-          <input
-            className='emailInput form-control'
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Email"
-          />
-        </div>
-        <div class="form-group mb-4">
-          <label for="messageInput">Message:</label>
-          <textarea
-            className='messageInput form-control'
-            style={styles.textarea}
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Write your message here..."
-          ></textarea>
-        </div>
-        <button type="button" className='btn btn-primary' onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
+    <div className="container justify-content-around mt-5 mb-5">
+      <div className='card contact-form shadow p-4 mb-5 rounded'>
+        <form className="form mt-4">
+          <h3 style={styles.pageTitle}>Contact Me</h3>
+          <div class="form-group mb-3">
+            <input
+              className='nameInput form-control'
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-group mb-3">
+            <input
+              className='emailInput form-control'
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group mb-4">
+            <textarea
+              className='messageInput form-control'
+              style={styles.textarea}
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+          <button type="button" className='btn btn-primary' onClick={handleFormSubmit}>
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

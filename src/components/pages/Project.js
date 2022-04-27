@@ -14,7 +14,8 @@ const styles = {
   },
   pageTitle: {
     fontSize: '42px',
-    textAlign: 'center'
+    textAlign: 'center',
+    fontWeight: '300'
   }
 
 };
@@ -28,7 +29,7 @@ export default function Project(props) {
       <main>
         <div className='container' style={styles.body}>
           <h3 className='mt-5 mb-5' style={styles.pageTitle}> Deployed Projects</h3>
-          <div className='container row flex-wrap'>
+          <div className='project-container container row'>
             {props.projects.map(renderProject)}
           </div>
         </div>

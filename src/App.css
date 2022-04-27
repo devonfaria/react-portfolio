@@ -37,10 +37,35 @@
   }
 }
 
+.card {
+  text-decoration: none;
+}
+
+.project-container {
+  flex-direction: row;
+}
+
+.contact-form {
+  background-color: #6472ff;
+}
+
 #root {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  font-family: 'Comfortaa', cursive;
 }
 
+@media screen and (max-width: 1024px) {
+  classList.
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    min-width: 100%;
+  }
+  
+
+}
 

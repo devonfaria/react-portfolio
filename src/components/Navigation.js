@@ -6,7 +6,7 @@ const pages = ["About", "Portfolio", "Contact"];
 const styles = {
   link: {
     margin: '20px',
-    fontSize: '30px',
+    fontSize: '25px',
     textDecoration: 'none',
     color: 'white',
   }
