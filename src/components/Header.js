@@ -9,19 +9,15 @@ const styles = {
     alignItems: 'center',
   },
   heading: {
-    margin: '2rem'
-  },
-  links: {
-    color: 'black',
-    margin: '1rem'
-  },
+    margin: '2rem',
 
+  },
 };
 
 export default function Header({ currentPage, handlePageChange, renderPage }) {
   console.log('Header plugged in');
   return (
-    <header style={styles.header} className='container'>
+    <header style={styles.header} >
       <h1 style={styles.heading}>Devon Faria</h1>
       <Navigation
         handlePageChange={handlePageChange} renderPage={renderPage}

@@ -11,24 +11,26 @@ const styles = {
     alignItems: 'center',
     height: '100px'
   },
-  imgLinks: {
+  icon: {
     margin: '1rem',
     padding: '1rem',
-    color: 'black',
+    height: '40px',
+    textDecoration: 'none',
+    color: 'white',
   }
 };
 
 export default function Footer() {
   console.log('Footer plugged in');
   return (
-    <div>
-      <footer style={styles.footer}>
+    <>
+      <footer style={styles.footer} class='navbar fixed-bottom'>
         <nav>
-          <a href='mailto:devonfaria@gmail.com' style={styles.imgLinks}><FontAwesomeIcon icon={faEnvelope} /></a>
-          <a href='https://github.com/devonfaria' style={styles.imgLinks}><FontAwesomeIcon icon={faGithubSquare} /></a>
-          <a href='https://www.linkedin.com/in/devon-faria/' style={styles.imgLinks}><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href='mailto:devonfaria@gmail.com' ><FontAwesomeIcon style={styles.icon} icon={faEnvelope} /></a>
+          <a href='https://github.com/devonfaria'><FontAwesomeIcon style={styles.icon} icon={faGithubSquare} /></a>
+          <a href='https://www.linkedin.com/in/devon-faria/'><FontAwesomeIcon style={styles.icon} icon={faLinkedin} /></a>
         </nav>
       </footer>
-    </div>
+    </>
   )
 };
