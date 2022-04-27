@@ -10,7 +10,7 @@ const styles = {
   },
   heading: {
     margin: '2rem',
-
+    color: 'white'
   },
 };
 

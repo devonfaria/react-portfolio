@@ -4,6 +4,10 @@ import { validateEmail } from '../../utils/helpers';
 const styles = {
   textarea: {
     height: '10rem'
+  },
+  pageTitle: {
+    fontSize: '42px',
+    textAlign: 'center'
   }
 };
 
@@ -55,7 +59,7 @@ function ContactForm() {
 
   return (
     <div className="container mt-5 mb-5">
-      <h3>Contact Me</h3>
+      <h3 style={styles.pageTitle}>Contact Me</h3>
       <form className="form mt-4">
         <div class="form-group mb-3">
           <label for="nameInput">Name:</label>

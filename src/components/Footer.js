@@ -24,7 +24,7 @@ export default function Footer() {
   console.log('Footer plugged in');
   return (
     <>
-      <footer style={styles.footer} class='fixed-bottom'>
+      <footer style={styles.footer} >
         <nav>
           <a href='mailto:devonfaria@gmail.com' ><FontAwesomeIcon style={styles.icon} icon={faEnvelope} /></a>
           <a href='https://github.com/devonfaria' target="_blank"><FontAwesomeIcon style={styles.icon} icon={faGithubSquare} /></a>

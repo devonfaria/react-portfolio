@@ -9,7 +9,7 @@ const styles = {
 const ProjectCard = (props) => {
   return (
     <div key={props.id} className="card col-6" style={styles.card}>
-      <a href={props.link}>
+      <a href={props.link} target="_blank">
         <img className='card-img-top' src={props.imgLink}></img>
         <div className="card-body">
           <h3 className="card-header mb-4">{props.title}</h3>
