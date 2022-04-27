@@ -37,8 +37,16 @@
   }
 }
 
-.card {
+.project-header {
+  background-color: #6472ff;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.link {
   text-decoration: none;
+  color: white;
+  font-weight: 300;
 }
 
 .project-container {
@@ -47,6 +55,11 @@
 
 .contact-form {
   background-color: #6472ff;
+}
+
+.active {
+  background-color: #e4ac11;
+  color: white;
 }
 
 #root {

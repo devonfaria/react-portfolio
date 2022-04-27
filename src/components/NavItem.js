@@ -9,12 +9,13 @@ const styles = {
   }
 };
 
-const NavItem = ({ currentPage, page, handlePageChange }) => {
+const NavItem = ({ currentPage, page, handlePageChange, link }) => {
   return (
     <a
       style={styles.link}
       href={`#${page.toLowerCase()}`}
       onClick={() => handlePageChange(page)}
+      className={currentPage === page ? 'nav-link active' : 'nav-link'}
     >
       {page}
     </a>

@@ -70,6 +70,7 @@ export default function WebsiteContainer() {
       return <ContactForm />;
     }
     if (currentPage === 'Resume') {
+      window.open('https://drive.google.com/file/d/1esn7-4dgYxx4vjljA5vWsZJLB3u3w-fs/view?usp=sharing', '_blank')
       return <AboutMe />;
     }
     return <AboutMe />;
