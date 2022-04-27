@@ -8,39 +8,39 @@ import Footer from './Footer';
 const projects = [
   {
     id: 1,
-    title: 'Project 1',
-    link: 'https://github.com/devonfaria/react-portfolio',
-    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+    title: 'Social Network API',
+    link: 'https://github.com/devonfaria/social-network-api',
+    imgLink: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651021561/Portfolio/Screen_Shot_2022-04-26_at_9.04.54_PM_spwxno.png',
   },
   {
     id: 2,
-    title: 'Project 2',
-    link: 'https://github.com/devonfaria/react-portfolio',
-    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+    title: 'Housable',
+    link: 'https://hidden-earth-95543.herokuapp.com/',
+    imgLink: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651018802/Portfolio/Housable_qulofq.png',
   },
   {
     id: 3,
-    title: 'Project 3',
-    link: 'https://github.com/devonfaria/react-portfolio',
-    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+    title: 'Traxx - Music Search Software',
+    link: 'https://devonfaria.github.io/traxx/',
+    imgLink: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651018519/Portfolio/Traxx-Music-Search-Software_alsial.png',
   },
   {
     id: 4,
-    title: 'Project 4',
-    link: 'https://github.com/devonfaria/react-portfolio',
-    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+    title: 'E-Commerce Back-End',
+    link: 'https://github.com/devonfaria/ecommerce-backend',
+    imgLink: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651021913/Portfolio/ecommerce_sxwsmg.png',
   },
   {
     id: 5,
-    title: 'Project 5',
-    link: 'https://github.com/devonfaria/react-portfolio',
-    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+    title: 'Tech Blog',
+    link: 'https://shrouded-temple-24617.herokuapp.com/',
+    imgLink: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651018886/Portfolio/Tech-Blog_ctzjub.png',
   },
   {
     id: 6,
-    title: 'Project 6',
-    link: 'https://github.com/devonfaria/react-portfolio',
-    imgLink: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/DED5/production/_104154075_gettyimages-154948449.jpg',
+    title: 'Weather Dashboard',
+    link: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651018513/Portfolio/Weather-Application_g5tkdq.png',
+    imgLink: 'https://res.cloudinary.com/dfamiaufc/image/upload/c_fit,h_400,w_800/v1651018513/Portfolio/Weather-Application_g5tkdq.png',
   }
 ];
 

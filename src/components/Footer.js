@@ -24,11 +24,11 @@ export default function Footer() {
   console.log('Footer plugged in');
   return (
     <>
-      <footer style={styles.footer} class='navbar fixed-bottom'>
+      <footer style={styles.footer} class='fixed-bottom'>
         <nav>
           <a href='mailto:devonfaria@gmail.com' ><FontAwesomeIcon style={styles.icon} icon={faEnvelope} /></a>
-          <a href='https://github.com/devonfaria'><FontAwesomeIcon style={styles.icon} icon={faGithubSquare} /></a>
-          <a href='https://www.linkedin.com/in/devon-faria/'><FontAwesomeIcon style={styles.icon} icon={faLinkedin} /></a>
+          <a href='https://github.com/devonfaria' target="_blank"><FontAwesomeIcon style={styles.icon} icon={faGithubSquare} /></a>
+          <a href='https://www.linkedin.com/in/devon-faria/' target="_blank"><FontAwesomeIcon style={styles.icon} icon={faLinkedin} /></a>
         </nav>
       </footer>
     </>

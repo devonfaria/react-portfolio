@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
+const styles = {
+  textarea: {
+    height: '10rem'
+  }
+};
+
 function ContactForm() {
   // Setters and Getters
   const [name, setName] = useState('');
@@ -77,6 +83,7 @@ function ContactForm() {
           <label for="messageInput">Message:</label>
           <textarea
             className='messageInput form-control'
+            style={styles.textarea}
             value={message}
             name="message"
             onChange={handleInputChange}
