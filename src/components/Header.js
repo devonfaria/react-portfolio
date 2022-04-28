@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 
 const styles = {
   header: {
-    backgroundColor: '#6472ff',
+    backgroundColor: '#3d58a8',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',

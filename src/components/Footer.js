@@ -5,7 +5,7 @@ import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
   footer: {
-    backgroundColor: '#6289de',
+    backgroundColor: '#3d58a8',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
