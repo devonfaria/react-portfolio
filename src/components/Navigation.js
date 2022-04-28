@@ -1,17 +1,10 @@
 import React from 'react';
 import NavItem from './NavItem'
 
+// Page names array for dynamic button creation
 const pages = ["About", "Portfolio", "Contact", "Resume"];
 
-const styles = {
-  link: {
-    margin: '20px',
-    fontSize: '25px',
-    textDecoration: 'none',
-    color: 'white',
-  }
-};
-
+// Button container HTML that maps over page array for generating buttons
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className='navbar'>

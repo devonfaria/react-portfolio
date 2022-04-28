@@ -1,20 +1,12 @@
 import React from 'react';
 
-const styles = {
-  link: {
-    margin: '20px',
-    fontSize: '25px',
-    textDecoration: 'none',
-    color: 'white',
-  }
-};
-
-const NavItem = ({ currentPage, page, handlePageChange, link }) => {
+// Nav Button HTML for header
+const NavItem = ({ currentPage, page, handlePageChange }) => {
   return (
     <a
-      style={styles.link}
       href={`#${page.toLowerCase()}`}
       onClick={() => handlePageChange(page)}
+      id='link'
       className={currentPage === page ? 'nav-link active' : 'nav-link'}
     >
       {page}

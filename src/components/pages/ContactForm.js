@@ -1,16 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-const styles = {
-  textarea: {
-    height: '10rem'
-  },
-  pageTitle: {
-    fontSize: '42px',
-    textAlign: 'center'
-  }
-};
-
 function ContactForm() {
   // Setters and Getters
   const [name, setName] = useState('');
@@ -31,6 +21,7 @@ function ContactForm() {
       setMessage(inputValue)
     }
 
+    // Conditional to add required text and warning border to fields left blank upon cursor move
     if (inputValue.length === 0) {
       target.classList.add('missing');
       target.classList.remove('form-control');
@@ -48,6 +39,8 @@ function ContactForm() {
   // Submit button
   const handleFormSubmit = (e) => {
     e.preventDefault();
+
+    // Email validation or return
     if (!validateEmail(email)) {
       alert('Please enter a valid email address.');
       return;
@@ -69,12 +62,12 @@ function ContactForm() {
     Message: "${message}".`);
   };
 
-
+  // Contact form HTML
   return (
     <div className="container justify-content-around mt-5 mb-5">
       <div className='card contact-form shadow p-4 mb-5 rounded'>
         <form className="form mt-4">
-          <h3 style={styles.pageTitle}>Contact Me</h3>
+          <h3 id='page-title'>Contact Me</h3>
           <div className="form-group mb-3">
             <input
               className='nameInput form-control'
@@ -102,7 +95,6 @@ function ContactForm() {
           <div className="form-group mb-4">
             <textarea
               className='messageInput form-control'
-              style={styles.textarea}
               value={message}
               name="message"
               onBlur={handleInputChange}

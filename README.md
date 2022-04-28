@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Professional Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Link to deployed application](https://devonfaria.github.io/react-portfolio/)
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* [Description](#description)
+* [Visuals](#visuals)
+* [Technologies](#technologies)
+* [Licenses](#licenses)
+* [Support](#support)
+* [Authors](#authors)
+* [Contributions](#contributions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to my Web Developer Portfolio, powered by React. This site uses React components to dynamically build the website so that it does not reload when visiting each subpages content. Additionally, the page accepts messages from a contact form that will later feed into a database on the backend. 
 
-### `npm test`
+Additional features include linked icons to GitHub, LinkedIn, and email from the footer, and a linked resume that opens in a new tab. Other functionalities include is to inform the user that the field is required if left blank in the contact form, and validating emails for valid syntax once submitted.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Visuals
 
-### `npm run build`
+This is the About Me landing page for the portfolio, with tabs to navigate to the subpages without reloading, and footer icons that link to Github, LinkedIn, and email. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![portfolio landing page](./src/media/Portfolio-About-Me.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is the projects page, showing six applications with links to their deployed applications(if possible), and the cooresponding Github repositories. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![portfolio projects page](./src/media/Portfolio-Projects.png)
 
-### `npm run eject`
+This is the Contact page, where users will be informed if a required field is left blank, and email entries will be validated for proper syntax on submit. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![portfolio contact me page](./src/media/Portfolio-Contact.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Example of the fields highlighting they are required when left blank. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![portfolio projects page](./src/media/Portfolio-warning.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Link to deployed application](https://devonfaria.github.io/react-portfolio/)
 
-## Learn More
+## Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Node JS
+* Express
+* React
+* DotEnv
+* Axios
+* Cloudinary
+* Bootstrap
+* FontAwesome
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licenses
 
-### Code Splitting
+This application uses the MIT Software License. [Click here to view full license.](LICENSE)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Support
 
-### Analyzing the Bundle Size
+Contact us at devonfaria@gmail.com if you need assistance downloading or activating this repository. You can also find me on [GitHub.](https://github.com/devonfaria)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+Devon Faria
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributions
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you to Anthony Cooper and Sasha Peters for always helping me out when I am not grasping a subject.

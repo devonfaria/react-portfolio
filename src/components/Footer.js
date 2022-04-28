@@ -3,32 +3,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
-const styles = {
-  footer: {
-    backgroundColor: '#3d58a8',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100px'
-  },
-  icon: {
-    margin: '1rem',
-    padding: '1rem',
-    height: '40px',
-    textDecoration: 'none',
-    color: 'white',
-  }
-};
-
+// Exports Footer HTML
 export default function Footer() {
-  console.log('Footer plugged in');
   return (
     <>
-      <footer style={styles.footer} >
+      <footer>
         <nav>
-          <a href='mailto:devonfaria@gmail.com' ><FontAwesomeIcon style={styles.icon} icon={faEnvelope} /></a>
-          <a href='https://github.com/devonfaria' target="_blank"><FontAwesomeIcon style={styles.icon} icon={faGithubSquare} /></a>
-          <a href='https://www.linkedin.com/in/devon-faria/' target="_blank"><FontAwesomeIcon style={styles.icon} icon={faLinkedin} /></a>
+          <a href='mailto:devonfaria@gmail.com'>
+            <FontAwesomeIcon icon={faEnvelope} className='icon' />
+          </a>
+          <a href='https://github.com/devonfaria' target="_blank" rel="noreferrer noopener">
+            <FontAwesomeIcon className='icon' icon={faGithubSquare} />
+          </a>
+          <a href='https://www.linkedin.com/in/devon-faria/' target="_blank" rel="noreferrer noopener">
+            <FontAwesomeIcon className='icon' icon={faLinkedin} />
+          </a>
         </nav>
       </footer>
     </>
