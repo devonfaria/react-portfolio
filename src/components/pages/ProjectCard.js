@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
         <a href={props.link} id='link' target="_blank" rel='noreferrer noopener'>{props.title}</a>
       </h3>
       <div className="card-body">
-        <p>{props.tech}</p>
+        <p className="tech">{props.tech}</p>
         <p>{props.description}</p>
         <a href={props.ghLink} className='btn shadow' id='btn' target="_blank" rel='noreferrer noopener'>Visit Github</a>
       </div>
