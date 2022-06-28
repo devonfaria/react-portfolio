@@ -76,7 +76,7 @@ export default function WebsiteContainer() {
       return <ContactForm />;
     }
     if (currentPage === 'Resume') {
-      window.open('https://drive.google.com/file/d/1esn7-4dgYxx4vjljA5vWsZJLB3u3w-fs/view?usp=sharing', '_blank')
+      window.open('https://drive.google.com/file/d/1g0kFcCbcJi-EsKLR6gDg0BgnqrH6-wTK/view?usp=sharing', '_blank')
       return <AboutMe />;
     }
     return <AboutMe />;
